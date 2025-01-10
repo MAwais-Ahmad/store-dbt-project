@@ -5,6 +5,7 @@ env/
 # Ignore sensitive files
 secrets.env
 config.json
+nidal-test-2cb57cd1b357.json
 
 # Ignore log files
 *.log
