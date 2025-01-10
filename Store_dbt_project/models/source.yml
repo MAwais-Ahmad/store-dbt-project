@@ -1,0 +1,49 @@
+version: 2
+
+sources:
+  - name: abc                # Name of the source (e.g., a schema or database)
+    description: "A BigQuery Cloud storage"  # Optional description of the source
+    schema: store              # Schema where the tables reside (optional, but commonly used)
+    database: nidal-test          # Database where the schema resides (optional)
+    tables:
+      - name: stores      # Name of the table in the source
+        description: "Description of the first table"  # Optional description
+        columns:                   # Optional column-level metadata
+          - name: store_id               # Name of the column
+            description: "The primary key for this table"
+            tests:                 # Optional tests for the column
+              - unique
+              - not_null
+
+      - name: employees            # Another table in the source
+        description: "Description of the second table"
+        columns:
+          - name: employee_id
+            description: "The primary key for this table"
+            test:
+              - unique
+              - not_null
+
+      - name: customers            # Another table in the source
+        description: "Description of the second table"
+        columns:
+          - name: customer_id
+            description: "The primary key for this table"
+            test:
+              - unique
+              - not_null
+     
+
+      - name: orders           # Another table in the source
+        description: "Description of the second table"
+        columns:
+          - name: order_id
+            description: "The primary key for this table"
+            test:
+              - unique
+              - not_null
+
+
+      - name: companies
+      - name: order_items
+      - name: products

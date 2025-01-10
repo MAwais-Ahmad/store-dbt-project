@@ -1,0 +1,438 @@
+[0m16:54:30.504727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014A923A93D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014A904C3EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014A9268F9E0>]}
+
+
+============================== 16:54:30.513477 | 1b91187d-2bb7-41d9-be6c-7c0e1e1c5cde ==============================
+[0m16:54:30.513477 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:54:30.517163 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:54:30.557121 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/LENOVO L390/.dbt')}
+[0m16:54:30.558242 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m16:54:49.079112 [debug] [MainThread]: Starter project path: C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m16:54:49.157630 [info ] [MainThread]: 
+Your new dbt project "my_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:54:49.160957 [info ] [MainThread]: Setting up your profile.
+[0m17:01:48.917450 [info ] [MainThread]: Profile my_dbt_project written to C:\Users\LENOVO L390\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:01:48.964053 [debug] [MainThread]: Command `dbt init` succeeded at 17:01:48.964053 after 438.79 seconds
+[0m17:01:48.964053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014A904C3EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014AA13A2AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014A903DA330>]}
+[0m17:01:48.964053 [debug] [MainThread]: Flushing usage events
+[0m17:01:50.079825 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:11:58.024590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE686BF1A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE686BFA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE686BC7A0>]}
+
+
+============================== 14:11:58.033828 | 6cc92cca-7609-4913-b54e-b2203ddea080 ==============================
+[0m14:11:58.033828 [info ] [MainThread]: Running with dbt=1.9.1
+[0m14:12:08.532196 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:12:08.595073 [info ] [MainThread]: dbt version: 1.9.1
+[0m14:12:08.595614 [info ] [MainThread]: python version: 3.12.7
+[0m14:12:08.596621 [info ] [MainThread]: python path: C:\Users\LENOVO L390\dbt-env\Scripts\python.exe
+[0m14:12:08.597860 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:12:14.456856 [info ] [MainThread]: Using profiles dir at C:\Users\LENOVO L390\.dbt
+[0m14:12:14.457891 [info ] [MainThread]: Using profiles.yml file at C:\Users\LENOVO L390\.dbt\profiles.yml
+[0m14:12:14.458922 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\LENOVO L390\dbt-env\dbt_project.yml
+[0m14:12:14.460344 [info ] [MainThread]: adapter type: bigquery
+[0m14:12:14.462780 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:12:14.468786 [info ] [MainThread]: Configuration:
+[0m14:12:14.474662 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:12:14.479005 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:12:14.482135 [info ] [MainThread]: Required dependencies:
+[0m14:12:14.486556 [debug] [MainThread]: Executing "git --help"
+[0m14:12:14.493924 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:12:14.500742 [info ] [MainThread]: Connection:
+[0m14:12:14.504839 [info ] [MainThread]:   method: service-account
+[0m14:12:14.507504 [info ] [MainThread]:   database: nidal-test
+[0m14:12:14.510685 [info ] [MainThread]:   execution_project: nidal-test
+[0m14:12:14.512493 [info ] [MainThread]:   schema: crisp_chat_data
+[0m14:12:14.518524 [info ] [MainThread]:   location: US
+[0m14:12:14.521683 [info ] [MainThread]:   priority: interactive
+[0m14:12:14.523012 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:12:14.524578 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:12:14.527790 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:12:14.528302 [info ] [MainThread]:   job_retries: 1
+[0m14:12:14.538798 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:12:14.541425 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:12:14.542463 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:12:14.545666 [info ] [MainThread]:   client_id: None
+[0m14:12:14.547363 [info ] [MainThread]:   token_uri: None
+[0m14:12:14.548879 [info ] [MainThread]:   dataproc_region: None
+[0m14:12:14.554744 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:12:14.559085 [info ] [MainThread]:   gcs_bucket: None
+[0m14:12:14.559085 [info ] [MainThread]:   dataproc_batch: None
+[0m14:12:14.563004 [info ] [MainThread]: Registered adapter: bigquery=1.9.0
+[0m14:12:15.388575 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:12:15.388575 [debug] [MainThread]: On debug: select 1 as id
+[0m14:12:15.389625 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:12:15.390627 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 22] Invalid argument: 'cd "C:\\Users\\LENOVO L390\\Downloads\\nidal-test-2cb57cd1b357.json"''
+[0m14:12:15.390627 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m14:12:15.391629 [debug] [MainThread]: BigQuery adapter: Database Error
+  [Errno 22] Invalid argument: 'cd "C:\\Users\\LENOVO L390\\Downloads\\nidal-test-2cb57cd1b357.json"'
+[0m14:12:15.392584 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:12:15.395928 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m14:12:15.397144 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\LENOVO L390\dbt-env\dbt_project.yml> not found
+
+[0m14:12:15.400715 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m14:12:15.406734 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:12:15.413931 [debug] [MainThread]: Command `dbt debug` failed at 14:12:15.412648 after 17.74 seconds
+[0m14:12:15.414447 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE664A54F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE78567320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE7965E210>]}
+[0m14:12:15.415465 [debug] [MainThread]: Flushing usage events
+[0m14:12:26.651986 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:12:46.011871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1357711C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D135773770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1357703B0>]}
+
+
+============================== 14:12:46.020961 | 2ab471d0-9df4-40e9-a97e-f7f232913f27 ==============================
+[0m14:12:46.020961 [info ] [MainThread]: Running with dbt=1.9.1
+[0m14:12:46.022972 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:12:46.073139 [info ] [MainThread]: dbt version: 1.9.1
+[0m14:12:46.075149 [info ] [MainThread]: python version: 3.12.7
+[0m14:12:46.081111 [info ] [MainThread]: python path: C:\Users\LENOVO L390\dbt-env\Scripts\python.exe
+[0m14:12:46.083111 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:12:47.848713 [info ] [MainThread]: Using profiles dir at C:\Users\LENOVO L390\.dbt
+[0m14:14:59.065546 [info ] [MainThread]: Using profiles.yml file at C:\Users\LENOVO L390\.dbt\profiles.yml
+[0m14:14:59.075281 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\LENOVO L390\dbt-env\dbt_project.yml
+[0m14:14:59.083104 [info ] [MainThread]: adapter type: bigquery
+[0m14:14:59.093623 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:14:59.101263 [info ] [MainThread]: Configuration:
+[0m14:14:59.110275 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:14:59.116473 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:14:59.122221 [info ] [MainThread]: Required dependencies:
+[0m14:14:59.126233 [debug] [MainThread]: Executing "git --help"
+[0m14:14:59.131343 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:14:59.135727 [info ] [MainThread]: Connection:
+[0m14:14:59.138083 [info ] [MainThread]:   method: service-account
+[0m14:14:59.139431 [info ] [MainThread]:   database: nidal-test
+[0m14:14:59.147469 [info ] [MainThread]:   execution_project: nidal-test
+[0m14:14:59.150434 [info ] [MainThread]:   schema: crisp_chat_data
+[0m14:14:59.155663 [info ] [MainThread]:   location: US
+[0m14:14:59.156663 [info ] [MainThread]:   priority: interactive
+[0m14:14:59.159134 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:14:59.166739 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:14:59.168884 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:14:59.171930 [info ] [MainThread]:   job_retries: 1
+[0m14:14:59.173878 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:14:59.176633 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:14:59.181831 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:14:59.183895 [info ] [MainThread]:   client_id: None
+[0m14:14:59.185895 [info ] [MainThread]:   token_uri: None
+[0m14:14:59.187050 [info ] [MainThread]:   dataproc_region: None
+[0m14:14:59.188071 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:14:59.193621 [info ] [MainThread]:   gcs_bucket: None
+[0m14:14:59.196956 [info ] [MainThread]:   dataproc_batch: None
+[0m14:14:59.204470 [info ] [MainThread]: Registered adapter: bigquery=1.9.0
+[0m14:14:59.791242 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:14:59.792254 [debug] [MainThread]: On debug: select 1 as id
+[0m14:14:59.793371 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:14:59.793883 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 22] Invalid argument: 'cd "C:\\Users\\LENOVO L390\\Downloads\\nidal-test-2cb57cd1b357.json"''
+[0m14:14:59.794896 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m14:14:59.795894 [debug] [MainThread]: BigQuery adapter: Database Error
+  [Errno 22] Invalid argument: 'cd "C:\\Users\\LENOVO L390\\Downloads\\nidal-test-2cb57cd1b357.json"'
+[0m14:14:59.795894 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:14:59.798896 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m14:14:59.800899 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\LENOVO L390\dbt-env\dbt_project.yml> not found
+
+[0m14:14:59.801897 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m14:14:59.807308 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:14:59.818272 [debug] [MainThread]: Command `dbt debug` failed at 14:14:59.818272 after 134.01 seconds
+[0m14:14:59.819448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D135773770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1466EEF00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D14669AA50>]}
+[0m14:14:59.819448 [debug] [MainThread]: Flushing usage events
+[0m14:15:01.286731 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:15:13.525943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C565F519A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C5636D2330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C565F515B0>]}
+
+
+============================== 14:15:13.531941 | 1a16d349-7db3-4192-8f13-ca9206be5f00 ==============================
+[0m14:15:13.531941 [info ] [MainThread]: Running with dbt=1.9.1
+[0m14:15:13.571916 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m14:15:13.633502 [info ] [MainThread]: dbt version: 1.9.1
+[0m14:15:13.637904 [info ] [MainThread]: python version: 3.12.7
+[0m14:15:13.640368 [info ] [MainThread]: python path: C:\Users\LENOVO L390\dbt-env\Scripts\python.exe
+[0m14:15:13.642632 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:15:15.551361 [info ] [MainThread]: Using profiles dir at C:\Users\LENOVO L390\.dbt
+[0m14:15:15.552408 [info ] [MainThread]: Using profiles.yml file at C:\Users\LENOVO L390\.dbt\profiles.yml
+[0m14:15:15.554366 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\LENOVO L390\dbt-env\dbt_project.yml
+[0m14:15:15.556405 [info ] [MainThread]: adapter type: bigquery
+[0m14:15:15.557415 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:15:15.562090 [info ] [MainThread]: Configuration:
+[0m14:15:15.564763 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:15:15.569948 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:15:15.572964 [info ] [MainThread]: Required dependencies:
+[0m14:15:15.573968 [debug] [MainThread]: Executing "git --help"
+[0m14:15:15.578955 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:15:15.581538 [info ] [MainThread]: Connection:
+[0m14:15:15.586412 [info ] [MainThread]:   method: service-account
+[0m14:15:15.587800 [info ] [MainThread]:   database: nidal-test
+[0m14:15:15.595336 [info ] [MainThread]:   execution_project: nidal-test
+[0m14:15:15.597989 [info ] [MainThread]:   schema: crisp_chat_data
+[0m14:15:15.602909 [info ] [MainThread]:   location: US
+[0m14:15:15.603925 [info ] [MainThread]:   priority: interactive
+[0m14:15:15.604926 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:15:15.606924 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:15:15.611918 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:15:15.614918 [info ] [MainThread]:   job_retries: 1
+[0m14:15:15.615925 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:15:15.617919 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:15:15.622918 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:15:15.625924 [info ] [MainThread]:   client_id: None
+[0m14:15:15.630406 [info ] [MainThread]:   token_uri: None
+[0m14:15:15.632535 [info ] [MainThread]:   dataproc_region: None
+[0m14:15:15.633531 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:15:15.636751 [info ] [MainThread]:   gcs_bucket: None
+[0m14:15:15.640655 [info ] [MainThread]:   dataproc_batch: None
+[0m14:15:15.643774 [info ] [MainThread]: Registered adapter: bigquery=1.9.0
+[0m14:15:16.100458 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:15:16.101472 [debug] [MainThread]: On debug: select 1 as id
+[0m14:15:16.102460 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:15:16.102460 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 22] Invalid argument: 'cd "C:\\Users\\LENOVO L390\\Downloads\\nidal-test-2cb57cd1b357.json"''
+[0m14:15:16.103460 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m14:15:16.103460 [debug] [MainThread]: BigQuery adapter: Database Error
+  [Errno 22] Invalid argument: 'cd "C:\\Users\\LENOVO L390\\Downloads\\nidal-test-2cb57cd1b357.json"'
+[0m14:15:16.104459 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:15:16.106471 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m14:15:16.109687 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\LENOVO L390\dbt-env\dbt_project.yml> not found
+
+[0m14:15:16.111703 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m14:15:16.113683 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:15:16.120232 [debug] [MainThread]: Command `dbt debug` failed at 14:15:16.120232 after 2.91 seconds
+[0m14:15:16.121231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C565987B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C576EE42C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C57687F9B0>]}
+[0m14:15:16.122231 [debug] [MainThread]: Flushing usage events
+[0m14:15:17.455330 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:31:19.902816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239CFDED130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239D09D9010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239D11215B0>]}
+
+
+============================== 15:31:19.910831 | 4b87a9fb-a8e5-43f1-b476-68fea83c7e66 ==============================
+[0m15:31:19.910831 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:31:19.911850 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:31:32.806049 [error] [MainThread]: Encountered an error:
+
+[0m15:31:32.914720 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\cli\main.py", line 477, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\task\init.py", line 324, in run
+    project_name = self.get_valid_project_name()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\task\init.py", line 278, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO L390\dbt-env\Lib\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO L390\dbt-env\Lib\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m15:31:32.917255 [debug] [MainThread]: Command `dbt init` failed at 15:31:32.917255 after 13.27 seconds
+[0m15:31:32.918249 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239D2D39340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239D33ABD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239D33A8A40>]}
+[0m15:31:32.920246 [debug] [MainThread]: Flushing usage events
+[0m15:31:33.929206 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:31:45.454946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002349049E8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002349049EC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002349049DCA0>]}
+
+
+============================== 15:31:45.459883 | 87a75f38-812d-4ccd-a2b0-ea5687b9c96c ==============================
+[0m15:31:45.459883 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:31:45.460890 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:32:00.139678 [debug] [MainThread]: Starter project path: C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m15:32:00.185901 [info ] [MainThread]: 
+Your new dbt project "first_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:32:00.186888 [info ] [MainThread]: Setting up your profile.
+[0m15:36:02.126501 [info ] [MainThread]: Profile first_dbt_project written to C:\Users\LENOVO L390\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:36:02.129774 [debug] [MainThread]: Command `dbt init` succeeded at 15:36:02.128732 after 256.85 seconds
+[0m15:36:02.131766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002348F903980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234A2550350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234A14D33E0>]}
+[0m15:36:02.132754 [debug] [MainThread]: Flushing usage events
+[0m15:36:03.301567 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:23:19.215062 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8DAC0E840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8DAC0E8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8DAC0E900>]}
+
+
+============================== 16:23:19.221364 | d65f279d-3e23-422d-ad69-54d1bf1b6e2f ==============================
+[0m16:23:19.221364 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:23:19.222342 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:23:33.273883 [debug] [MainThread]: Starter project path: C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m16:23:33.303132 [info ] [MainThread]: 
+Your new dbt project "my_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:23:33.303132 [info ] [MainThread]: Setting up your profile.
+[0m16:24:37.785891 [info ] [MainThread]: Profile my_dbt_project written to C:\Users\LENOVO L390\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:24:37.789248 [debug] [MainThread]: Command `dbt init` succeeded at 16:24:37.789248 after 78.74 seconds
+[0m16:24:37.790247 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8DA3DD8B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8E978AAE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8EB662240>]}
+[0m16:24:37.790777 [debug] [MainThread]: Flushing usage events
+[0m16:24:38.800590 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:26:15.802491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B21E1D490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B21E1D3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B21E1D160>]}
+
+
+============================== 16:26:15.807533 | b3863a67-c68a-48c4-b376-1542cdb5a43a ==============================
+[0m16:26:15.807533 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:26:15.808498 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:26:26.537339 [debug] [MainThread]: Starter project path: C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m16:26:26.567668 [info ] [MainThread]: 
+Your new dbt project "my_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:26:26.567668 [info ] [MainThread]: Setting up your profile.
+[0m16:28:41.919475 [info ] [MainThread]: Profile my_dbt_project written to C:\Users\LENOVO L390\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:28:41.924582 [debug] [MainThread]: Command `dbt init` succeeded at 16:28:41.923556 after 146.30 seconds
+[0m16:28:41.926121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B21CDC620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B21FB49E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B21FB4A70>]}
+[0m16:28:41.929442 [debug] [MainThread]: Flushing usage events
+[0m16:28:43.127636 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:08:21.763942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE1F1CB560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE1BD6EF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE1BD6DFD0>]}
+
+
+============================== 15:08:21.805066 | 5a6bad16-069f-462e-9f04-16e309e188b8 ==============================
+[0m15:08:21.805066 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:08:21.805066 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:08:47.178042 [debug] [MainThread]: Starter project path: C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m15:08:47.222392 [info ] [MainThread]: 
+Your new dbt project "Store_dbt_practice" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:08:47.223427 [info ] [MainThread]: Setting up your profile.
+[0m15:09:54.691387 [info ] [MainThread]: Profile Store_dbt_practice written to C:\Users\LENOVO L390\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:09:54.693776 [debug] [MainThread]: Command `dbt init` succeeded at 15:09:54.693776 after 93.10 seconds
+[0m15:09:54.693776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE1F16FFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE2F1BAAE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE30372AE0>]}
+[0m15:09:54.694896 [debug] [MainThread]: Flushing usage events
+[0m15:09:55.818621 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:20:18.277764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001246798CE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001246765AA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001246798D550>]}
+
+
+============================== 15:20:18.283768 | 05cb8dab-3dcb-42e5-b629-ccdf9cba890b ==============================
+[0m15:20:18.283768 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:20:18.283768 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:20:53.053432 [info ] [MainThread]: A project called Store_dbt_practice already exists here.
+[0m15:20:53.054700 [debug] [MainThread]: Command `dbt init` succeeded at 15:20:53.054700 after 35.03 seconds
+[0m15:20:53.054700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124642180E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001246765AA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124670EFB30>]}
+[0m15:20:53.054700 [debug] [MainThread]: Flushing usage events
+[0m15:20:54.083188 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:28:59.532008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0931678C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0903E7B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0903E6CC0>]}
+
+
+============================== 15:28:59.539874 | cba01bcf-a82e-4958-a9d1-f7c4de67ed11 ==============================
+[0m15:28:59.539874 [info ] [MainThread]: Running with dbt=1.9.1
+[0m15:28:59.541330 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\LENOVO L390\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:29:14.798574 [debug] [MainThread]: Starter project path: C:\Users\LENOVO L390\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m15:29:14.834222 [info ] [MainThread]: 
+Your new dbt project "Store_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:29:14.836134 [info ] [MainThread]: Setting up your profile.
+[0m15:30:22.434854 [info ] [MainThread]: Profile Store_dbt_project written to C:\Users\LENOVO L390\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:30:22.436865 [debug] [MainThread]: Command `dbt init` succeeded at 15:30:22.436865 after 83.13 seconds
+[0m15:30:22.438868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C08D025610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0927EA4B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A41969F0>]}
+[0m15:30:22.439854 [debug] [MainThread]: Flushing usage events
+[0m15:30:23.540492 [debug] [MainThread]: An error was encountered while trying to flush usage events

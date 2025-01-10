@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nidal-test",
+  "private_key_id": "2cb57cd1b3570302bd9422663ce4ebdca8e2b1bd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCt00h7DWLCQGSQ\nxPSrRrkvqrwOjGNTFdvJO7JpHUoxoAcTw4bwlySE7sk+3HbYEhk4zBITaDzSJb+g\nTCiFhXemlF1DA1T7y+Hvh2aZ76qw2h7tH9mw2mq4c9rKc3Ryga8/KiBzvLRZIZY7\nBi0QX79NBNF2/aJW+S2r4MBUBHY+6dCK78zN8KOC2Fxuqr6yPymcqvKSvdoqacsw\n1REk/zayRRlEuaQlbLy8g3V0Uat+mKa+n6HimCwjDuq5t8NJAED0x+FxP7NlmJVJ\n8ttlJa5T1lGwT6n2H0xf5s+4a5rPB6MXWpVr+P/mR1l0YAGhtU1Sk95aFTN+bKD8\nf2Ks1JRzAgMBAAECggEADEPJAfG0WFtzHRSLOkiPtCbPr8Eaba2FqAG/zr3j0x46\nUZvYD21tWg8qgPZ3pjrvWlFqgcG275Gn9IywcUIKarpeMuZvHnhzdSiwcHJ3hen7\nXk+DLIDaIIYALTe57YMWqpYeMGcOB0Sg6oI+4hW3aZz0603ty0WNV5V7TJJSBjya\n0sogFnGSen4ON+BlLcJa+wntmDoB2CwucZKcl8dwb8v47d8xLWwf74sQttu/71Gl\nFP1ODgkkOw4+KwimllrHSK1hI6+De85TjYJBd9dkksopvgfxw0uAqFuS73Wo6Ggj\n1szFEHyEco+QQc/np6QhCE4lC1qFf985qdGz0JuI9QKBgQC4irPWSetjLFZ2m/OO\nC3Im9IKzLAKV9QWmIIht1Y7SFftTyoQ+B7olsBCKxBbA0GcvBG1tXqAU2wm2Usis\nCavoC7qL4onTh8hfcELDii6FwH9ltxLVoRz4I4RMqScN+MMxg7e6DdSN4bv7zuG2\nJTv3RO7MEFd+arRL4f1p38XcxwKBgQDxIkZqIk7i3bBMHbuuM9dUyo9jPTuI4jDf\nro5ORap98/LZ0BXzcBrMEPX2EcKlflHZrofF2QoT7ibjjyn6tVSR/+OJjn1gy2XS\nq6Ds6tDTU9O2si4kdE96STv5NUSfQAqwLNxuVCLJx5KQSl5tUZS2Qaf8eczdsx7c\nEm6wgndm9QKBgGGtCILjnTNgxGMDKGaGqGT2BjfPk47LobHMhmmcH3wTJnOzPUuX\ny28nQZoxL9nedL7uGP1KmHBxfzKBnrVwaQzpKFPiFBFiTSw2vx/Ag99HhCbSP6XT\nIQI1ylDJN2KtyKLslNJlf5uZX2Zomg9Ope67Dan0/FptIAEKHJdtWc0BAoGBANGC\nhEfHE1+OWpVn6B/NrzRe4wLIuyeN0AUpdz+OzDmvcbvKTqg7KS1RN0Pb3pFIFfna\n6OEAWP9EFsn1I/ZPAvHvsVVdVpZ5YzkOIj53L4XN+c9tNSY7YKrRYqh+neb4D9FO\nyR+bPravDisMUssM7PcGSNzXPycJcLCp2z7FvNTZAoGAZzDjgW1I87+1AxLmjFfY\n0vBzTiGm3s4c8+Wnxfr/QZdMubIEZLa7SjoRfRqhX6xUqqOJKS1Zq7gwfnIfeM8t\nf5vfwNichO97J1CRMI+Td2mbimkqQtELXD+OwCiDoV0Y1s8jdjQ66bqXeHt/Bu/V\nBSZNayNemlP0bqFrWhxxFk0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "de-mage@nidal-test.iam.gserviceaccount.com",
+  "client_id": "117980696232303124293",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/de-mage%40nidal-test.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
